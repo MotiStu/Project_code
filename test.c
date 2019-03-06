@@ -6,8 +6,8 @@
 void GameStart(pSnake ps)
 {
 	WelcomeToGame();            //欢迎界面
-	CreateMap();					//设置地图
-	InitSnake(ps);
+	CreateMap();		//设置地图
+	InitSnake(ps);		//蛇
 	CreateFood(ps);
 	ps->_Sleeptime = 200;
 	ps->_totalScore = 0;
