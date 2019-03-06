@@ -149,7 +149,7 @@ void Pause()          //暂停
 	while (1)
 	{
 		Sleep(200);
-		if (GetAsyncKeyState(VK_SPACE))
+		if (GetAsyncKeyState(VK_SPACE))//当获取空格键，暂停
 		{
 			break;
 		}
